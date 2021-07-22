@@ -7,8 +7,11 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 - 40% comes from their fuel emissions
 <p align="left">
 	<img src= "test_folder/contrail.png" width="300" >
+	<br>
 	<em>caption</em>
 </p>
+
+
 ### Where does that 60% come from?
 
 - AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
