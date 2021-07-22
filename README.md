@@ -1,15 +1,37 @@
-## Welcome to GitHub Pages
+## Welcome to Team Partly Cloudy :cloud::cloud::cloud:
+
+Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our DAEN690: Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research to develop a predictive model to help tackle aviation's effects on global warming.
+
+
+
+This is our [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
 You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### DIAGRAM OF GLOBAL WARMINING/AICs
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```markdown
+This is a brief overview of our process:
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+### DIAGRAM OF PROJECT PIPELINE
 
 ```markdown
-Syntax highlighted code block
+This is a brief overview of our process:
 
 # Header 1
 ## Header 2
