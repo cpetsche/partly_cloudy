@@ -1,16 +1,31 @@
 ## Forecasting Aircraft Induced Clouds (AIC) Hot Spots by Team Partly Cloudy :cloud::cloud::cloud:
 
-Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our DAEN690: Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research to develop a predictive model to help tackle aviation's effects on global warming.
+Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
 
-<img src= "test_folder/RF.png" width="600" >
+Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO2 emissions.
+-60% of that is attributed to Aircraft Induced Clouds (AICs)
+-40% comes from their fuel emissions
 
-This is an image ![](https://github.com/rina635/partly_cloudy/blob/main/test_folder/RF.png)
+### Where does that 60% come from?
 
-This is our [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
+```markdown
+#Where does that 60% come from?
+-AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
+-AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
+-This is an example of Radiative forcing which is an effective indicator of Global Warminng.
+
+<img src= "test_folder/RF.png" width="650" >
+```
+
+### What is Partly Cloudy doing about it?
+
+The objective of this project is to assist the aviation industry in reducing its contribution to global warming by predicting the presence of ISSRs and the areas in which AICs are most likely to form within the contiguous United States (CONUS).  We will also analyze flight data, so that we can forecast where aircraft are most likely to traverse through the predicted ISSRs, to identify “hot spots” or areas where AICs are most likely to form. 
+
+This is our [Tableau Dashboard] where you can explore the AIC hot spots at each Air Traffic Control Center (ARTCC) (https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
 You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-### DIAGRAM OF GLOBAL WARMINING/AICs
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```markdown
