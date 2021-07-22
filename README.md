@@ -8,14 +8,12 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 
 ### Where does that 60% come from?
 
-```markdown
-#Where does that 60% come from?
 -AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
 -AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
 -This is an example of Radiative forcing which is an effective indicator of Global Warminng.
 
+
 <img src= "test_folder/RF.png" width="650" >
-```
 
 ### What is Partly Cloudy doing about it?
 
