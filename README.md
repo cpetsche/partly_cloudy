@@ -10,7 +10,10 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 
 - AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
 
-Here's an example of an AIC in the sky:
+Here's an example of AICs in the sky:
+
+<img src= "test_folder/contrail.png">
+
 ![AIC](https://github.com/rina635/partly_cloudy/blob/main/test_folder/contrail.png)
 
 
