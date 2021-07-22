@@ -2,9 +2,9 @@
 
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
 
-Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO2 emissions.
-- 60% of that is attributed to Aircraft Induced Clouds (AICs)
-- 40% comes from their fuel emissions
+Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO<sub>2</sub> emissions.
+- 60% of that is attributed to Aircraft Induced Clouds (AICs) or contrails.
+- 40% comes from their fuel emissions.
 <p align="left">
 	<img src= "test_folder/contrail.png" width="300" >
 	<br>
@@ -16,16 +16,14 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 
 - AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
 - AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
-- This is an example of Radiative forcing which is an effective indicator of Global Warminng.
 
 <img src= "test_folder/RF.png" width="650" >
-<br>
-<em>An example of how Radiative Forcing occurs. Source:https://climate.mit.edu/explainers/radiative-forcing</em>
+<em>An example of how Radiative Forcing occurs. Source: https://climate.mit.edu/explainers/radiative-forcing</em>
  
 
 ### What is Partly Cloudy doing about it?
 
-The objective of this project is to assist the aviation industry in reducing its contribution to global warming by predicting the presence of ISSRs and the areas in which AICs are most likely to form within the contiguous United States (CONUS).  We will also analyze flight data, so that we can forecast where aircraft are most likely to traverse through the predicted ISSRs, to identify “hot spots” or areas where AICs are most likely to form. 
+The objective of this project is to assist the aviation industry in reducing its contribution to global warming by predicting the presence of ISSRs and the areas in which **AICs** are most likely to form within the **Contiguous United States (CONUS)**.  We will also analyze flight data, so that we can forecast where aircraft are most likely to traverse through the predicted **ISSRs**, to identify these hot spots.
 
 You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
