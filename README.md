@@ -5,11 +5,9 @@ Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, thi
 Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO<sub>2</sub> emissions.
 - 60% of that is attributed to Aircraft Induced Clouds (AICs) or contrails.
 - 40% comes from their fuel emissions.
-<p align="left">
-	<img src= "test_folder/contrail.png" width="300" >
-	<br>
-	<em>Image of Contrails in the sky. Source: https://www.researchgate.net/figure/Line-shaped-contrails-and-contrail-cirrus-forming-in-aircraft-engine-exhaust_fig2_225024463</em>
-</p>
+
+<img src= "test_folder/contrail.png" width="300" >
+<em>Image of Contrails in the sky. Source: https://www.researchgate.net/figure/Line-shaped-contrails-and-contrail-cirrus-forming-in-aircraft-engine-exhaust_fig2_225024463</em>
 
 
 ### Where does that 60% come from?
