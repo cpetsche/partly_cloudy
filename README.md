@@ -12,6 +12,14 @@ These are what AICs or contrails look like
 ### Where does that 60% come from?
 
 - AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
+<<<<<<< HEAD
+=======
+
+Here's an example of AICs in the sky:
+
+<img src= "test_folder/contrail.png" width="100" >
+
+>>>>>>> a33e54d47cffbc1d33876414184bd8d87cf25a18
 - AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
 - This is an example of Radiative forcing which is an effective indicator of Global Warminng.
 
