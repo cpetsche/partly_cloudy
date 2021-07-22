@@ -2,7 +2,8 @@
 
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our DAEN690: Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research to develop a predictive model to help tackle aviation's effects on global warming.
 
-This is an image ![](https://github.com/rina635/partly_cloudy/blob/main/test_folder/RF.png)
+This is an image 
+![Radiative Forcing and How it Works](https://github.com/rina635/partly_cloudy/blob/main/test_folder/RF.png, width = "414", height = "414")
 
 This is our [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
