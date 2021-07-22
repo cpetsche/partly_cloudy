@@ -3,14 +3,19 @@
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
 
 Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO2 emissions.
--60% of that is attributed to Aircraft Induced Clouds (AICs)
--40% comes from their fuel emissions
+- 60% of that is attributed to Aircraft Induced Clouds (AICs)
+- 40% comes from their fuel emissions
 
 ### Where does that 60% come from?
 
--AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
--AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
--This is an example of Radiative forcing which is an effective indicator of Global Warminng.
+- AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
+
+Here's an example of an AIC in the sky:
+![AIC](https://github.com/rina635/partly_cloudy/blob/main/test_folder/contrail.png)
+
+
+- AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
+- This is an example of Radiative forcing which is an effective indicator of Global Warminng.
 
 
 <img src= "test_folder/RF.png" width="650" >
