@@ -12,7 +12,7 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 
 Here's an example of AICs in the sky:
 
-<img src= "test_folder/contrail.png", width="100" >
+<img src= "test_folder/contrail.png" width="100" >
 
 - AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
 - This is an example of Radiative forcing which is an effective indicator of Global Warminng.
