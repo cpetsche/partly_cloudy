@@ -1,6 +1,4 @@
-## Forecasting Aircraft Induced Clouds (AIC) Hot Spots by Team Partly Cloudy :cloud::cloud::cloud:
-
-<img src= "test_folder/2601_cloud.png">
+## Forecasting Aircraft Induced Clouds (AIC) Hot Spots by Team Partly Cloudy <img src= "https://github.com/rina635/partly_cloudy/blob/main/test_folder/2601_cloud.png">
 
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
 
