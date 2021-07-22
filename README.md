@@ -1,4 +1,4 @@
-## Welcome to Team Partly Cloudy :cloud::cloud::cloud:
+## Forecasting Aircraft Induced Clouds (AIC) Hot Spots by Team Partly Cloudy :cloud::cloud::cloud:
 
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our DAEN690: Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research to develop a predictive model to help tackle aviation's effects on global warming.
 
