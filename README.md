@@ -1,5 +1,7 @@
 ## Forecasting Aircraft Induced Clouds (AIC) Hot Spots by Team Partly Cloudy :cloud::cloud::cloud:
 
+<img src= "test_folder/2601_cloud.png">
+
 Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
 
 Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO<sub>2</sub> emissions.
