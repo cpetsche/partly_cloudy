@@ -8,7 +8,7 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 <p align="left">
 	<img src= "test_folder/contrail.png" width="300" >
 	<br>
-	<em>caption</em>
+	<em>Image of Contrails in the sky. Source: https://www.researchgate.net/figure/Line-shaped-contrails-and-contrail-cirrus-forming-in-aircraft-engine-exhaust_fig2_225024463</em>
 </p>
 
 
@@ -18,8 +18,10 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 - AICs trap and reflect 33% of Earth's thermal radiation back into the atmosphere, creating a greenhouse effect that causes the atmosphere to heat up.
 - This is an example of Radiative forcing which is an effective indicator of Global Warminng.
 
-
 <img src= "test_folder/RF.png" width="650" >
+<br>
+<em>An example of how Radiative Forcing occurs. Source:https://climate.mit.edu/explainers/radiative-forcing</em>
+ 
 
 ### What is Partly Cloudy doing about it?
 
