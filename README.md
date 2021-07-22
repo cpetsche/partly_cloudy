@@ -19,7 +19,7 @@ Aviation contributes approximately 4% of anthropogenic global warmining and the 
 
 The objective of this project is to assist the aviation industry in reducing its contribution to global warming by predicting the presence of ISSRs and the areas in which AICs are most likely to form within the contiguous United States (CONUS).  We will also analyze flight data, so that we can forecast where aircraft are most likely to traverse through the predicted ISSRs, to identify “hot spots” or areas where AICs are most likely to form. 
 
-This is our [Tableau Dashboard] where you can explore the AIC hot spots at each Air Traffic Control Center (ARTCC) (https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
+You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
 You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
