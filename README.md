@@ -5,9 +5,10 @@ Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, thi
 Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO2 emissions.
 - 60% of that is attributed to Aircraft Induced Clouds (AICs)
 - 40% comes from their fuel emissions
-
-<img src= "test_folder/contrail.png" width="300" >
-<em>caption</em>
+<p align="left">
+	<img src= "test_folder/contrail.png" width="300" >
+	<em>caption</em>
+</p>
 ### Where does that 60% come from?
 
 - AICs form as a result of aircraft emissions (water vapor and soot) passing through **Ice Super Saturdated Regions (ISSRs)** where humidity is 100% and ≤ -60 ℃. These emissions create crysallized ice clouds.
