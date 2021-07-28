@@ -28,8 +28,6 @@ You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.g
 You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 
-<script type='text/javascript' src='https://explore.dot.gov/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1536px; height: 700px;'><object class='tableauViz' width='1536' height='700' style='display:none;'><param name='host_url' value='https%3A%2F%2Fexplore.dot.gov%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ISSRMonthlyCellHoursPOST&#47;MonthlyISSRCell-HoursbyARTCC' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
-
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```markdown
