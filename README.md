@@ -25,38 +25,6 @@ The objective of this project is to assist the aviation industry in reducing its
 
 You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
-You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-
-<html>
-<head>
-
-    <title>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</title>
-
-    <script type="text/javascript"
-	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script type="text/javascript"></script>
-
-</head>
-
-<body>
-
-  <h1>Add Title Here</h1>
-
-    <button id = "exportPDF">Generate PDF</button>
-    <button id = "exportImage">Generate Image</button>
-
-
-    <div id="vizContainer"></div>
-
-    <script src="./app.js"></script>
-
-</body>
-
-</html>
-
-
-
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```markdown
 This is a brief overview of our process:
@@ -94,13 +62,3 @@ This is a brief overview of our process:
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rina635/partly_cloudy/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
