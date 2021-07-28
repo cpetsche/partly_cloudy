@@ -28,6 +28,34 @@ You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.g
 You can use the [editor on GitHub](https://github.com/rina635/partly_cloudy/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 
+<html>
+<head>
+
+    <title>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</title>
+
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <h1>Add Title Here</h1>
+
+    <button id = "exportPDF">Generate PDF</button>
+    <button id = "exportImage">Generate Image</button>
+
+
+    <div id="vizContainer"></div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 ```markdown
