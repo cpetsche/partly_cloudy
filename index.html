@@ -2,7 +2,7 @@
 <head>
 
     <title>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="text/javascript"
 	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
     <script type="text/javascript"></script>
@@ -10,16 +10,23 @@
 </head>
 
 <body>
+  <div style="background-color:rgb(187,221,232)" class="p-3 mb-2 mx-auto">
+    <h3>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</h1>
 
-  <h1>Add Title Here</h1>
+    <div id="vizContainer" class="p-3 mb-2"></div>
+    <button id = "exportImage" type="button" class="btn btn-outline-dark">Display Data</button>
+    <button id = "exportPDF" type="button" class="btn btn-outline-dark">Download PDF</button>
 
-    <button id = "exportPDF">Generate PDF</button>
-    <button id = "exportImage">Generate Image</button>
+  </div>
+  <div style="background-color:rgb(187,221,232)" class="p-3 mb-2 mx-auto">
+    <h3>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</h1>
 
+    <div id="vizContainer" class="p-3 mb-2"></div>
+    <button id = "exportImage" type="button" class="btn btn-outline-dark">Display Data</button>
+    <button id = "exportPDF" type="button" class="btn btn-outline-dark">Download PDF</button>
 
-    <div id="vizContainer"></div>
-
-    <script src="./app.js"></script>
+  </div>
+  <script src="./app.js"></script>
 
 </body>
 
