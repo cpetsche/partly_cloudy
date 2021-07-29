@@ -1,33 +1,45 @@
+<<!DOCTYPE html>
 <html>
 <head>
-
-    <title>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Partly Cloudy Project | DAEN690</title>
     <script type="text/javascript"
 	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
     <script type="text/javascript"></script>
-
+    <link rel="stylesheet" href="styles.css"
 </head>
-
 <body>
-  <div style="background-color:rgb(187,221,232)" class="p-3 mb-2 mx-auto">
-    <h3>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</h1>
-
-    <div id="vizContainer" class="p-3 mb-2"></div>
-    <button id = "exportImage" type="button" class="btn btn-outline-dark">Download IMG</button>
-    <button id = "exportPDF" type="button" class="btn btn-outline-dark">Download PDF</button>
-
-  </div>
-  <div style="background-color:rgb(187,221,232)" class="p-3 mb-2 mx-auto">
-    <h3>Forecasting Aircraft Induced Clouds (AICs) Host Spots By Partly Cloudy</h1>
-
-    <div id="vizContainer" class="p-3 mb-2"></div>
-    <button id = "exportImage" type="button" class="btn btn-outline-dark">Download IMG</button>
-    <button id = "exportPDF" type="button" class="btn btn-outline-dark">Download PDF</button>
-
-  </div>
-  <script src="./app.js"></script>
+    <div class="top">
+    <h1>Partly Cloudy Project</h1>
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="source.html">Sources</a></li>
+    </ul>
+    </div>
+    <div class="text">
+        <p> Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. 
+            Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
+        <br>Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO<sub>2</sub> emissions.
+        <ul>
+            <li>60% of that is attributed to Aircraft Induced Clouds (AICs) or contrails.</li>
+            <li>40% comes from their fuel emissions.</li>
+        </ul>    
+            
+              
+        </p>
+        
+    </div>
+    <br>
+    <div id="vizContainer"></div>
+    <div class="container">
+        <p class="title">Export the Tableau workbook:</p>
+        <br>
+        <button id= "exportImage">Download Image</button>
+        <button id="exportPDF">Download PDF</button>
+    </div>
+    <script src="./app.js"></script>
 
 </body>
-
 </html>
