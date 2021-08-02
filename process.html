@@ -3,15 +3,68 @@
 <head>
     <meta charset="utf-8" />
     <title>Partly Cloudy Project | Team</title>
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="2601_cloud.ico">
 </head>
 <body>
     <div class="top">
-    <h1>Partly Cloudy Project</h1>
+    <h1>P A R T L Y &nbsp; &nbsp; C L O U D Y</h1>
     <ul>
         <li><a href="index.html">Main</a></li>
         <li><a href="team.html">Team</a></li>
         <li><a href="process.html">Process</a></li>
         <li><a href="source.html">Sources</a></li>
     </ul>
+    </div>
+
+    <div class="data-overview">
+    <h2>DATA PRE-PROCESSING</h2>
+    <p> The diagram below illustrates the entire data architecture of our project from data source acquistion to final visualizations. 
+        <br>3 datasets were used for our analysis: 1. NOAA RAP, 2. ADS-B, and 3. ARTCC Boundary.
+    </p>
+    <br>
+    <figure>
+        <img src="chris_data_process.png" alt="Diagram of Data Acquisition Process"> 
+        <figcaption>Fig.1 - Diagram of Data Acquisition Process</figcaption>   
+    </figure>
+    </div>
+    <br>
+
+    <div class= "text">
+        <h3>NOAA RAP Dataset</h3>
+        <p>The NOAA RAP data is an open-source hourly updated collection and model forecast system. 
+            It obtains atmospheric data through a combination of sources including commercial aircraft, weather balloons, radar, and satellites.
+
+            Below is a visualization of a grid that depicts how GRIB2 grids cover the airspace over CONUS. Each grid represents a 20 km by 20 km area for a particular flight level. </p>
+        <p>Essentially, the RAP GRIB2 data contains weather information and details of a three-dimensional grid within the United States’ airspace. By providing environmental situational awareness, 
+            in hourly increments, and various atmospheric condition data for a 20-km spatial resolution grids, at fixed interval pressure levels (100 hPa – 1,000 hPa) our team was able to utilize 
+            the RAP dataset for short-range weather forecasting, specifically focusing on the presence of the Ice Supersaturated Regions within CONUS (the contiguous/continental United States). </p>
+            <br>
+            <figure>
+                <img src="NOAA Gridpoint layout.png" alt="NOAA Gridpoint">
+                <figcaption>Fig.2 - NOAA Gridpoint layout</figcaption>
+            </figure>   
+        <h3>ADS-B Tracking Data</h3>     
+        <p>Our second data set, ADS-B data is utilized by air traffic control to display an aircraft’s altitude, velocity, position, and other surveillance data. 
+            This dataset has been collected by members of the aviation community who use feeders to receive the broadcasting data from aircrafts. This data is then supplied back 
+            through the ADSBExhange through application programming interfaces (APIs)</p>
+        <p>This dataset provides information regarding altitiude, airspeed, and location of thorusands of aicrafts a a time. ADS-B data was used to overlay onto ISSR hotspots
+            identified. It helped our team idenitfy where and when aircrafts are most likely to fly through ISSRs and form Aircraft-Induced Clouds. For the purpose of our analysis,
+            we utilized one day's worth of ADS-B data (June 6, 2020) assuming that this day represents a tyupical day of flight operations.
+        </p>
+        
+        <h3>ARTCC Boundary Data</h3>    
+        <p>Our third data set, the ARTCC boundary dataset, is a collection of latitude/longitude points along the boundaries of each ARTCC region. 
+            These boundaries divide the regions of CONUS where each Air Traffic COntrol Center is responsible for controlling flight traffic.
+            This dataset allowed us to divide the CONUS into regions and identify which regions had the most air traffic, which are most likely to experience ISSRs, and which
+            are most susceptible to AICs formation. </p>
+        <figure>
+            <img src="ARTCC boundaries.png">
+            <figcaption>Fig.3 - ARTCC Boundaries within CONUS.</figcaption>
+        </figure>
+    </div>
+    <br>
+    <div class ='modeling'>
+        <h2>THE MODEL</h2>
+        <p>For our project, we attempted 2 different time series models: LSTM and XGBoost</p>
     </div>

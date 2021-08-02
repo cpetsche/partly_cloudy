@@ -7,12 +7,14 @@
 	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
     <script type="text/javascript"></script>
     <link rel="stylesheet" href="styles.css">
+    <!--http://carlos-r-mendoza.github.io/how-to-add-a-browser-tab-icon-to-your-website-->
     <link rel="shortcut icon" href="2601_cloud.ico">
-    
 </head>
+
 <body>
+    <!--Navigation Section-->
     <div class="top">
-    <h1>Partly Cloudy Project</h1>
+    <h1>P A R T L Y &nbsp; &nbsp; C L O U D Y</h1>
     <ul>
         <li><a href="index.html">Main</a></li>
         <li><a href="team.html">Team</a></li>
@@ -20,29 +22,100 @@
         <li><a href="source.html">Sources</a></li>
     </ul>
     </div>
+    <br>
     <div class="text">
-        <p> Partly Cloudy is comprised of 5 Data Analytical Engineering students at GMU, this our Captone Project. 
-            Over the course of 12-weeks we've worked alongside George Mason's Center for Airport Transportation Systems Research (CASTR).
-        <br>Aviation contributes approximately 4% of anthropogenic global warmining and the effects are immediate compared to CO<sub>2</sub> emissions.
+        <h2>W H A T</h2>
+        <p> <em>That's a big question.</em> Let's break this question down:</p>
+        <h3>1. WHAT'S THE PROBLEM?</h3>
+        <p>Aviation’s detriment to climate change is two-fold in that it releases greenhouse gases into the atmosphere and generates cloud contrails that trap those greenhouse gases.</p>
+        </p>Aviation contributes approximately 4% of anthropogenic (or human-caused) global warming and the effects are immediate compared to CO<sub>2</sub> emissions.
         <ul>
-            <li>60% of that is attributed to Aircraft Induced Clouds (AICs) or contrails.</li>
+            <li>60% of that is attributed to <b>Aircraft Induced Clouds (AICs)</b> or contrails.</li>
             <li>40% comes from their fuel emissions.</li>
         </ul>    
+        <h3>2. WHAT'S AN AIC?</h3>
+        <p>AICs or contrails are thin white trails in the sky that follow aircrafts. They are generated when an aircraft travels through certain atmospheric conditions.</p>
+        <p>These atmospheric conditions are known as <strong>Ice Supersaturated Regions</strong> where:
+        <ul>
+            <li>The temperature is at or below -40°C (313.15 Kelvin)</li>
+            <li>Humidity is 100%</li>
+        </ul>
+        <p>When an aicraft passes through an ISSR, long-lived peristent and cirrus contrails may form. Although only 15% of flights generate long-term contrails, these
+            typically last for 2-10 hours. 
+            Longer contrails can also spread and merge with othe contrails to form aan impenetrable ice layer. These contrails have an immediate effect
+            on global warming because they inhibit radiation from escaping into space and trap it back to the Earth. This radiation is what leads to a global warming effect on Earth.
             
-              
-        </p>
+        <p>When aircrafts pass through airspace that is not an ISSR, short-lived contrails may form but these will only last for up to 10 minutes and have a neglibgible effect on global warming. </p>
+        <h3>3. WHAT'S THE PLAN?</h3>
+        <p>The objective of this project is to assist the aviation industry in reducing its contribution to global warming by predicting the presence 
+            of ISSRs and the areas in which AICs are most likely to form within the contiguous United States (CONUS).</p>
         
-    </div>
-    <br>
-    <h2>This is something something</h2>
-    <div id="vizContainer"></div>
-    <div class="container">
-        <p class="title">Export the Tableau workbook:</p>
-        <br>
-        <button id= "exportImage">Download Image</button>
-        <button id="exportPDF">Download PDF</button>
-    </div>
-    <script src="./app.js"></script>
+        <P>Flying around the perimeter of ISSRs is usually practical because of their area and the detour would generate additional fuel burning costs/emissions that exceed the benefit of 
+            ISSR avoidance. The least prohibitive way for aircraft to avoid ISSRs is by flying over them, 2000-4000 feet. The atmosphere is so homogenous that by increasing elevation by just this small amount, 
+            it is extremely likely that this new flight level will put the aircraft in different temperature and humidity conditions that are not conducive to AIC generation. 
+            The additional fuel burned for the climb to this level above is counteracted by the lower drag rate at those higher altitudes, neutralizing
+            the fuel burn rate. 
+            This operational change would only affect those 15% of flights that are likely to generate contrails. A case study conducted over one year of flights in the CONUS found that when flights 
+            routed through ISSR regions increased their flight levels by 2,000-4,000 ft, there was a resulting -63% in net radiative forcing [4].  </P>
 
+        <h2>W H O</h2>
+        <p>Glad you asked! Partly Cloudy is a team of 5 Data Analytical Engineering students at GMU who have spent 12-weeks working on our
+            capstone. You can learn more about us individually, on the <a href="team.html"><strong>team page.</strong></a>
+            For our capstone, we've partnered with Dr. Sherry the Director for the Center for Air transformation Systems Research (CASTR)
+            here at George Mason University. Our second partner is Mr. Ho, a Software Developer for the IDV tool at Unidata.
+        </p>
+        <p>You can find out more about these organizations by clicking below:</p>
+        <a href="https://catsr.vse.gmu.edu/">
+            <img src="castr_logo.png">
+        </a>
+        <!--https://imagecolorpicker.com/ for color https://www.thesitewizard.com/css/create-coloured-box.shtml-->
+        <div id="demobox">
+            <a href="https://www.unidata.ucar.edu/software/idv/">
+                <img src="unidata.png">
+            </a>
+        </div>
+
+        <br>
+        <h2> W H E R E</h2>
+        <P>For our problem, we're just focusing on the contigen United States. Below are our main Tableau dashboards where you can explore
+            the data itself.</P>
+        <p>This visualization <strong>"Monthly ISSR Cell-Hours by ARTCC"</strong> Dashboard provides a monthly distribution summary of ISSRs
+        cell counts at pixels for each Air Traffic Control Center (ARTCC). A pixel is a point with (Nx, Ny) cooridnates in the Rapid Refresh (RAP)
+    dataset for June 2020 through May 2021. The radio buttons on the far left of the dashboard provides options to summarize data for a specific
+month and/or ARTCC.</p>
+        <p>The histogram on the left <strong>"ISSR Cell-Hour Frequency Distribution (at Nx, Ny) Coordinates)"</strong> provides a distribution
+        of ISSR cell counts at pixels. The horizontal axis is ISSR cell counts at pixels and the vertical axis is the frequency of pixels
+        (i.e. pixel counts) for corresponding ISSR cell counts.</p>
+
+        <p>The table <strong>"Average Cell-Hours by Center (ranked)"</strong> on the top-right provides mean ISSR cell counts at pixels for each
+        ARTCC, and the bar graph on the bottom-right <strong>"Monthly Total ISSR Cell-Hours"</strong> provides sum of ISSR cell counts for each 
+        month.</p>
+        <div class="container">
+        <div id="vizContainer2"></div>
+        <br>
+        <p>The 2nd dashboard below provides a summary of ISSR cell counts, aircraft counts in cells, and aircraft counts in ISSR cells at 6-hour
+        time increments. A cell is a 3-dimensional space corresponding to a grid in the NOAA RAP dataset (represented by a point with Nx, Ny, and
+        pressure level). The radio buttons on the far right of the dashboard provides options to summarize and display data fro a specific month,
+        ARTCC and/or 6-hour UTC time period.
+        </p>
+        <p>The graphs on the left <strong>"6-hour Period ISSR & Planes Cell-Hours (Centerwide)"</strong> provides 6-hour totals of ISSR cell counts,
+        aircraft counts in cells, and aircraft counts in ISSR cells. The table on the right <strong>("Totals by ARTCC")</strong> provides the 
+        totals for each ARTCC.</p>
+        <div id="vizContainer"></div> 
+    <script src="./app.js"></script> 
+    <br>
+    <h2>W H Y</h2>
+    <p>It is increasingly necessary for companies and industries to adopt more eco-friendly methods to reduce their impact on global warming. 
+        The commercial and military aviation sectors are significant contributors to global warming because of the emissions they generate as they fly through the atmosphere. </p>
+
+    <p>Avoiding ISSRs is the cheapest and easiest method for aircraft to mitigate the creation of AICs, so the ability to accurately predict their location would allow them to immediately reduce their carbon footprint. 
+         flight planning process has several opportunities to modify a flight plan if the flight planners received information regarding the location of an ISSR.  
+          flight planners could accurately and easily predict the presence of ISSRs, it would be highly feasible to route aircraft around or above those areas. 
+          A convenient, real-time dashboard that showed predicted ISSRs over the next 6 hours would empower flight planners to do this, which would greatly reduce aviation’s impact on climate change. </p>
+    <h2>H O W</h2>    
+    <p>Check out a more detailed explaination of our process <a href="process.html"><strong>here</strong></a></p>
+    <br>
+    </div>
+    <div class="footer">Developed by Rina Lidder</div>
 </body>
 </html>

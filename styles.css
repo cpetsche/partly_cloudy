@@ -2,10 +2,13 @@ html { margin: 0;
     font: 14px/1.4 'Open Sans', arial, sans-serif;
     background: rgb(243, 239, 239);
   }
+
+
 .top {
     margin: 0;
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
     background: rgb(243, 239, 239);
+  
   }
 
 .top h1  { 
@@ -62,29 +65,49 @@ html { margin: 0;
       }
   }
 
-.container  button{
-    cursor: pointer;
-    outline: none;
-    background: transparent;
-    color: rgb(0, 0, 0);
-    font-size: 10px;
-    font-weight: 800;
-    border: rgb(0, 0, 0) solid 2px;
-    border-radius: 24px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    transition: all 0.2s linear;
+.text #demobox {
+    background-color: #003366;
+    width: 440px;
+    
   }
-  
-.container button:hover{
-    background: #FFF;
-    color: #636B6F;
-    border-color: #636B6F;
-  }
-  
-.container button:first-of-type{
-    margin-right: 40px;
-  }
+.footer{
+    position: fixed;
+    text-align: right;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    width: 100%
+    padding: 1rem;
+    background-color: #ded9d9;
+}
+.text {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}  
+
+.data-overview {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}  
+
+.rap{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.modeling{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.container{
+    margin-left: 50px;
+}
+
 
   #member-container {
     width: 90%;
@@ -107,7 +130,7 @@ html { margin: 0;
   
   .member img {
     width: 150px;
-    height: auto;
+    height: 150px;
     border: 5px solid #fff;
     border-radius: 50%;
     margin: 15px auto;
@@ -148,4 +171,3 @@ html { margin: 0;
     font-size: 12px;
     color: #424242;
   }
-  
