@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Partly Cloudy Project | Findings</title>
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!--http://carlos-r-mendoza.github.io/how-to-add-a-browser-tab-icon-to-your-website-->
+    <link rel="shortcut icon" href="images/2601_cloud.ico">
+</head>
+
+<body>
+    <!--Navigation Section-->
+    <div class="top">
+    <h1>P A R T L Y &nbsp; &nbsp; C L O U D Y</h1>
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="findings.html">Findings</a></li>
+    </ul>
+    </div>
+    <br>
+    <div class="tableau">
+    <h2>Exploratory Data Analysis</h2>
+    <p>This visualization <strong>"Monthly ISSR Cell-Hours by ARTCC"</strong> Dashboard provides a monthly distribution summary of ISSRs
+        cell counts at pixels for each Air Traffic Control Center (ARTCC). A pixel is a point with (Nx, Ny) cooridnates in the Rapid Refresh (RAP)
+    dataset for June 2020 through May 2021. The radio buttons on the far left of the dashboard provides options to summarize data for a specific
+month and/or ARTCC.</p>
+        <p>The histogram on the left <strong>"ISSR Cell-Hour Frequency Distribution (at Nx, Ny) Coordinates)"</strong> provides a distribution
+        of ISSR cell counts at pixels. The horizontal axis is ISSR cell counts at pixels and the vertical axis is the frequency of pixels
+        (i.e. pixel counts) for corresponding ISSR cell counts.</p>
+
+        <p>The table <strong>"Average Cell-Hours by Center (ranked)"</strong> on the top-right provides mean ISSR cell counts at pixels for each
+        ARTCC, and the bar graph on the bottom-right <strong>"Monthly Total ISSR Cell-Hours"</strong> provides sum of ISSR cell counts for each 
+        month.</p>
+        <div class="container">
+        <div id="vizContainer2"></div>
+        <br>
+        <p>The 2nd dashboard below provides a summary of ISSR cell counts, aircraft counts in cells, and aircraft counts in ISSR cells at 6-hour
+        time increments. A cell is a 3-dimensional space corresponding to a grid in the NOAA RAP dataset (represented by a point with Nx, Ny, and
+        pressure level). The radio buttons on the far right of the dashboard provides options to summarize and display data fro a specific month,
+        ARTCC and/or 6-hour UTC time period.
+        </p>
+        <p>The graphs on the left <strong>"6-hour Period ISSR & Planes Cell-Hours (Centerwide)"</strong> provides 6-hour totals of ISSR cell counts,
+        aircraft counts in cells, and aircraft counts in ISSR cells. The table on the right <strong>("Totals by ARTCC")</strong> provides the 
+        totals for each ARTCC.</p>
+        <div id="vizContainer"></div> 
+        <script src="./app.js"></script> 
+    </div>
+    <br>
+    <div class="idv">
+
+    </div>

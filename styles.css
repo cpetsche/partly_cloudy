@@ -86,6 +86,27 @@ html { margin: 0;
 
 }  
 
+/*Three image containers 33%*/
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+
+.column {
+  margin-left: 5px;
+}
+
+  
+.tableau {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}  
 .data-overview {
   margin-left: 200px;
   margin-right: 200px;

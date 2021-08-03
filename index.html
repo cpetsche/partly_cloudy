@@ -8,7 +8,7 @@
     <script type="text/javascript"></script>
     <link rel="stylesheet" href="styles.css">
     <!--http://carlos-r-mendoza.github.io/how-to-add-a-browser-tab-icon-to-your-website-->
-    <link rel="shortcut icon" href="images/2601_cloud.ico">
+    <link rel="shortcut icon" href="2601_cloud.ico">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <li><a href="index.html">Main</a></li>
         <li><a href="team.html">Team</a></li>
         <li><a href="process.html">Process</a></li>
-        <li><a href="source.html">Sources</a></li>
+        <li><a href="findings.html">Findings</a></li>
     </ul>
     </div>
     <br>
@@ -42,7 +42,7 @@
         </ul>
         <p>When an aicraft passes through an ISSR, long-lived peristent and cirrus contrails may form. Although only 15% of flights generate long-term contrails, these
             typically last for 2-10 hours. 
-            Longer contrails can also spread and merge with othe contrails to form aan impenetrable ice layer. These contrails have an immediate effect
+            Longer contrails can also spread and merge with othe contrails to form an impenetrable ice layer. These contrails have an immediate effect
             on global warming because they inhibit radiation from escaping into space and trap it back to the Earth. This radiation is what leads to a global warming effect on Earth.
             
         <p>When aircrafts pass through airspace that is not an ISSR, short-lived contrails may form but these will only last for up to 10 minutes and have a neglibgible effect on global warming. </p>
@@ -74,36 +74,48 @@
                 <img src="images/unidata.png">
             </a>
         </div>
-
         <br>
         <h2> W H E R E</h2>
-        <P>For our problem, we're just focusing on the contigent United States. Below are our main Tableau dashboards where you can explore
-            the data itself.</P>
-        <p>This visualization <strong>"Monthly ISSR Cell-Hours by ARTCC"</strong> Dashboard provides a monthly distribution summary of ISSRs
-        cell counts at pixels for each Air Traffic Control Center (ARTCC). A pixel is a point with (Nx, Ny) cooridnates in the Rapid Refresh (RAP)
-    dataset for June 2020 through May 2021. The radio buttons on the far left of the dashboard provides options to summarize data for a specific
-month and/or ARTCC.</p>
-        <p>The histogram on the left <strong>"ISSR Cell-Hour Frequency Distribution (at Nx, Ny) Coordinates)"</strong> provides a distribution
-        of ISSR cell counts at pixels. The horizontal axis is ISSR cell counts at pixels and the vertical axis is the frequency of pixels
-        (i.e. pixel counts) for corresponding ISSR cell counts.</p>
-
-        <p>The table <strong>"Average Cell-Hours by Center (ranked)"</strong> on the top-right provides mean ISSR cell counts at pixels for each
-        ARTCC, and the bar graph on the bottom-right <strong>"Monthly Total ISSR Cell-Hours"</strong> provides sum of ISSR cell counts for each 
-        month.</p>
-        <div class="container">
-        <div id="vizContainer2"></div>
-        <br>
-        <p>The 2nd dashboard below provides a summary of ISSR cell counts, aircraft counts in cells, and aircraft counts in ISSR cells at 6-hour
-        time increments. A cell is a 3-dimensional space corresponding to a grid in the NOAA RAP dataset (represented by a point with Nx, Ny, and
-        pressure level). The radio buttons on the far right of the dashboard provides options to summarize and display data fro a specific month,
-        ARTCC and/or 6-hour UTC time period.
+        <P>For our problem, we're just focusing on the contiguous United States. Below are our the ISSR counts for the 4 areas we explored in our
+            modeling. You can explore more of our findings <a href="findings.html"><strong>here.</strong></a></P>
+        <p>Our analysis focused on 4 <strong>Air Traffic Control Centers (ARTCC):</strong></p>
+        <ul>
+            <li>Washington, D.C.</li>
+            <li>Jacksonville, FL</li>
+            <li>Miami, FL</li>
+            <li>Seattle, WA</li>
+        </ul>
+        <p>Here you can see the monthly variations at these 4 ARTCCs.
+            <br>Washington, D.C.'s monthly cell count trend appears to follow the generally monthyl variation across CONUS.
         </p>
-        <p>The graphs on the left <strong>"6-hour Period ISSR & Planes Cell-Hours (Centerwide)"</strong> provides 6-hour totals of ISSR cell counts,
-        aircraft counts in cells, and aircraft counts in ISSR cells. The table on the right <strong>("Totals by ARTCC")</strong> provides the 
-        totals for each ARTCC.</p>
-        <br>
-        <div id="vizContainer"></div> 
-    <script src="./app.js"></script> 
+        <div class="row1">
+            <div class="column">
+                <figure>
+                    <img src="images/DC_Monthly.png", width="500">
+                    <figcaption>Monthly ISSR Distribution across Washington D.C.</figcaption>
+                </figure>
+            </div>
+            <div class="column">
+                <figure>
+                    <img src="images/JCK_Monthly.png", width="500">
+                    <figcaption>Monthly ISSR Distribution across Jacksonville, FL.</figcaption>
+                </figure>
+            </div>
+        </div>      
+        <div class="row2"> 
+            <div class="column">
+                <figure>
+                    <img src="images/MIA_Monthly.png", width="500">
+                    <figcaption>Monthly ISSR Distrubiton across Miami, FL.</figcaption>
+                </figure>
+            </div>    
+            <div class="column">
+                <figure>
+                    <img src="images/SEA_Monthly.png", width="500">
+                    <figcaption>Monthly ISSR Distrubiton across Seattle, Washington.</figcaption>
+                </figure>
+            </div> 
+        </div>
     <br>
     <h2>W H Y</h2>
     <p>It is increasingly necessary for companies and industries to adopt more eco-friendly methods to reduce their impact on global warming. 
