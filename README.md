@@ -25,40 +25,4 @@ The objective of this project is to assist the aviation industry in reducing its
 
 You can explore the AIC hotspots here: [Tableau Dashboard](https://explore.dot.gov/views/ISSRMonthlyCellHoursPOST/MonthlyISSRCell-HoursbyARTCC?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-```markdown
-This is a brief overview of our process:
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-### DIAGRAM OF PROJECT PIPELINE
-
-```markdown
-This is a brief overview of our process:
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+To find out more about our project head to our [Github Page](https://rina635.github.io/partly_cloudy
