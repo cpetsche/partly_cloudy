@@ -1,4 +1,4 @@
-## Forecasting Aircraft Induced Clouds (AIC) Hot Spots <img src= "https://github.com/rina635/partly_cloudy/blob/main/images/2601_cloud.png">
+# Forecasting Aircraft Induced Clouds (AIC) Hot Spots <img src= "https://github.com/rina635/partly_cloudy/blob/main/images/2601_cloud.png">
 
 ## By Christopher Chang, Rina Lidder, Charlotte Petsche, Andrew So, and Haoming Tang.
 
