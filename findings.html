@@ -19,38 +19,156 @@
         <li><a href="index.html">Main</a></li>
         <li><a href="team.html">Team</a></li>
         <li><a href="process.html">Process</a></li>
+        <li><a href="visualization.html">Viz</a></li>
+        <li><a href="modeling.html">Models</a></li>
         <li><a href="findings.html">Findings</a></li>
     </ul>
     </div>
     <br>
-    <div class="tableau">
-    <h2>Exploratory Data Analysis</h2>
-    <p>This visualization <strong>"Monthly ISSR Cell-Hours by ARTCC"</strong> Dashboard provides a monthly distribution summary of ISSRs
-        cell counts at pixels for each Air Traffic Control Center (ARTCC). A pixel is a point with (Nx, Ny) cooridnates in the Rapid Refresh (RAP)
-    dataset for June 2020 through May 2021. The radio buttons on the far left of the dashboard provides options to summarize data for a specific
-month and/or ARTCC.</p>
-        <p>The histogram on the left <strong>"ISSR Cell-Hour Frequency Distribution (at Nx, Ny) Coordinates)"</strong> provides a distribution
-        of ISSR cell counts at pixels. The horizontal axis is ISSR cell counts at pixels and the vertical axis is the frequency of pixels
-        (i.e. pixel counts) for corresponding ISSR cell counts.</p>
-
-        <p>The table <strong>"Average Cell-Hours by Center (ranked)"</strong> on the top-right provides mean ISSR cell counts at pixels for each
-        ARTCC, and the bar graph on the bottom-right <strong>"Monthly Total ISSR Cell-Hours"</strong> provides sum of ISSR cell counts for each 
-        month.</p>
-        <div class="container">
-        <div id="vizContainer2"></div>
-        <br>
-        <p>The 2nd dashboard below provides a summary of ISSR cell counts, aircraft counts in cells, and aircraft counts in ISSR cells at 6-hour
-        time increments. A cell is a 3-dimensional space corresponding to a grid in the NOAA RAP dataset (represented by a point with Nx, Ny, and
-        pressure level). The radio buttons on the far right of the dashboard provides options to summarize and display data fro a specific month,
-        ARTCC and/or 6-hour UTC time period.
-        </p>
-        <p>The graphs on the left <strong>"6-hour Period ISSR & Planes Cell-Hours (Centerwide)"</strong> provides 6-hour totals of ISSR cell counts,
-        aircraft counts in cells, and aircraft counts in ISSR cells. The table on the right <strong>("Totals by ARTCC")</strong> provides the 
-        totals for each ARTCC.</p>
-        <div id="vizContainer"></div> 
-        <script src="./app.js"></script> 
+    <div class ="text">
+    <h2>TREND ANALYSIS</h2>
+    <p>The fist ARTCC chosen was Washington, D.C. because it's monthly ISSR cell count trend closely followed the monthly trend
+        of all RAP and had the 3rd highest number of aircrafts transverse through the ISSRs. March 2021 had the highest monthly ISSR counts.
+    </p>
+    <p>Jacksonville had the highest number of aicrafts tranverse through ISSRs throughout the year and its monthly ISSR celll count trend
+        was drastically different from the monthly trend of all RAP. October 2020 had the highest ISSR counts.
+    </p>
+    <p>Miami, FL ARTCC's monthly ISSR cell count trend was also drastically different from the monthly trend of all RAP data. June 2020 had 
+        the highest ISSR counts.
+    </p>
+    <p>Seattle, WA ARTCC had the highest ISSR counts in January 2021 and this was chosen because it had the highest average ISSR Frequency per latitude and longitude coordinates
+        compared to the rest of the ARTTCs.</p>
+    <div class="row1">
+        <div class="column">
+            <figure>
+                <img src="images/DC_Monthly.png", width="500">
+                <figcaption>Monthly ISSR Distribution across Washington D.C.</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+                <img src="images/JCK_Monthly.png", width="500">
+                <figcaption>Monthly ISSR Distribution across Jacksonville, FL.</figcaption>
+            </figure>
+        </div>
+    </div>      
+    <div class="row2"> 
+        <div class="column">
+            <figure>
+                <img src="images/MIA_Monthly.png", width="500">
+                <figcaption>Monthly ISSR Distrubiton across Miami, FL.</figcaption>
+            </figure>
+        </div>    
+        <div class="column">
+            <figure>
+                <img src="images/SEA_Monthly.png", width="500">
+                <figcaption>Monthly ISSR Distrubiton across Seattle, Washington.</figcaption>
+            </figure>
+        </div> 
     </div>
-    <br>
-    <div class="idv">
-
+</div>
+    <div class ="text">
+    <h2>MODEL FINDINGS</h2>
+    <p>In XG Boost we updated the model to utilize data from FL 300-430. By implementing this range, we were no longer excluding data anomalies and this larger range compared to FL 300-370 allowed for more variance, which provided non-bias training data. We also built two different models for each of our four chosen ARTCCs – one that used 1 months' worth of training data, and the other that used 3 months’ worth of training data. Overall, using the longer range of training data improved our model performance, but not significantly. The models could predict most of the moderate values, but couldn’t capture the peak values accurately, especially if they are right after a trough. </p>
+    <p>Below are the results for each of the XGBoost models and some terminology for your reference.</p>
+    <ul>
+        <li><strong>Accuracy</strong> - Refers to how often the model correctly predicted the number of ISSR counts.</li>
+        <li><strong>MAE (Mean Absolute Error)</strong> - Measures the magnitude of error between the predicted and original ISSR counts. It does this by using the average of the absolute error between the predicted and original ISSR counts.</li>
+        <li><strong>Precision</strong> - Refers to the number of ISSR counts the model correctly estimated.</li>
+    </ul>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: left;    
+        }
+        </style>
+        </head>
+        <body>
+    <table style="width:50%">
+        <tr>
+            <th>Washington, DC ARTCC</th>
+            <th>1-Month Window</th>
+            <th>3-Month Window </th>
+          </tr>
+          <tr>
+            <td>Accuracy</td>
+            <td>92.95%</td>
+            <td>95.18%</td>
+          </tr>
+          <tr>
+              <td>MAE</td>
+            <td>0.0705</td>
+            <td>0.0482</td>
+          <tr>
+              <td>Precision</td>
+            <td>97.65%</td>
+            <td>96.11%</td>
+      </table>
+      <br>
+      <table style="width:50%">
+        <tr>
+          <th>Miami, FL ARTCC</th>
+          <th>1-Month Window</th>
+          <th>3-Month Window </th>
+        </tr>
+        <tr>
+          <td>Accuracy</td>
+          <td>88.55%</td>
+          <td>88.82%</td>
+        </tr>
+        <tr>
+            <td>MAE</td>
+          <td>0.1289</td>
+          <td>0.1255</td>
+        <tr>
+            <td>Precision</td>
+          <td>91.93%</td>
+          <td>91.92%</td>
+      </table>
+      <br>
+      <table style="width:50%">
+        <tr>
+          <th>Jacksonville, FL ARTCC</th>
+          <th>1-Month Window</th>
+          <th>3-Month Window </th>
+        </tr>
+        <tr>
+          <td>Accuracy</td>
+          <td>91.94%</td>
+          <td>91.16%</td>
+        </tr>
+        <tr>
+            <td>MAE</td>
+          <td>0.0939</td>
+          <td>0.0482</td>
+        <tr>
+            <td>Precision</td>
+          <td>92.25%</td>
+          <td>92.38%</td>
+      </table>
+      <br>
+      <table style="width:50%">
+        <tr>
+          <th>Seattle, WA ARTCC</th>
+          <th>1-Month Window</th>
+          <th>3-Month Window </th>
+        </tr>
+        <tr>
+          <td>Accuracy</td>
+          <td>95.44%</td>
+          <td>95.70%</td>
+        </tr>
+        <tr>
+            <td>MAE</td>
+          <td>0.0631</td>
+          <td>0.0684</td>
+        <tr>
+            <td>Precision</td>
+          <td>97.96%</td>
+          <td>97.13%</td>
+      </table>
     </div>

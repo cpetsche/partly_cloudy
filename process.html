@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Partly Cloudy Project | Process</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="2601_cloud.ico">
+    <link rel="shortcut icon" href="images/2601_cloud.ico">
 </head>
 <body>
     <div class="top">
@@ -13,6 +13,8 @@
         <li><a href="index.html">Main</a></li>
         <li><a href="team.html">Team</a></li>
         <li><a href="process.html">Process</a></li>
+        <li><a href="visualization.html">Viz</a></li>
+        <li><a href="modeling.html">Models</a></li>
         <li><a href="findings.html">Findings</a></li>
     </ul>
     </div>
@@ -35,7 +37,7 @@
         <p>The NOAA RAP data is an open-source hourly updated collection and model forecast system. 
             It obtains atmospheric data through a combination of sources including commercial aircraft, weather balloons, radar, and satellites.
 
-            Below is a visualization of a grid that depicts how GRIB2 grids cover the airspace over CONUS. Each grid represents a 20 km by 20 km area for a particular flight level. </p>
+            Below is a visualization of a grid that depicts how GRIB2 grids cover the airspace over CONUS. Each cell represents a 20 km by 20 km area for a particular flight level. </p>
         <p>Essentially, the RAP GRIB2 data contains weather information and details of a three-dimensional grid within the United States’ airspace. By providing environmental situational awareness, 
             in hourly increments, and various atmospheric condition data for a 20-km spatial resolution grids, at fixed interval pressure levels (100 hPa – 1,000 hPa) our team was able to utilize 
             the RAP dataset for short-range weather forecasting, specifically focusing on the presence of the Ice Supersaturated Regions within CONUS (the contiguous/continental United States). </p>
@@ -66,5 +68,9 @@
     <br>
     <div class ='modeling'>
         <h2>THE MODEL</h2>
-        <p>For our project, we attempted 2 different time series models: LSTM and XGBoost</p>
+        <p>For the purpose of modeling, we chose 4 ARTCC to model: Washington, D.C., Jacksonville, FL, Miami, FL, and Seattle, Washington.
+            You can learn more about why we chose those 4 from our <a href="findings.html"><strong>findings.</strong></a>    
+        We then gathered data for only the 6-hour time periods of the day: 0600, 1200, 1800, and 2400. This included cell location (nx, ny),
+        the ISSR count at the cell location, average temperature, and average relative humdiity over ice. </p>
+        <p>For further detail about the models, check out the <a href="modeling.html">page.</a></p>
     </div>
